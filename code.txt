@@ -4,8 +4,8 @@ int tempPin = A0; // the output pin of LM35
 int fan = 11; // the pin where fan is
 int led = 8; // led pin
 int temp;
-int tempMin = 30; // the temperature to start the fan 0%
-int tempMax = 60; // the maximum temperature when fan is at 100%
+int tempMin = 20; // the temperature to start the fan 0%
+int tempMax = 50; // the maximum temperature when fan is at 100%
 int fanSpeed;
 int fanLCD;
  
